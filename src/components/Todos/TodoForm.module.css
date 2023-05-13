@@ -19,12 +19,12 @@
     margin-left: 20px;
     height: 50px;
     cursor: pointer;
-background-color: beige;
+    background-color: rgb(188, 188, 155);
     font-size: 1.5rem;
   }
 
   .todoFormContainer button:hover {
-background-color: rgb(175, 208, 137) ;
+background-color: rgb(135, 205, 56) ;
 }
 
 .todoFormContainer input,
