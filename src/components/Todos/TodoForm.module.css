@@ -15,7 +15,7 @@ button {
 margin-left: 20px;
 height: 50px;
 cursor: pointer;
-background-color: beige;
+background-color: rgb(242, 242, 145);
 font-size: 1.5rem;
 }
 
@@ -25,7 +25,7 @@ button:hover {
 
 input,
 button {
-  padding: 10pz 15px;
+  padding: 10px 15px;
   border:none;
   border-radius: 5px;
 }
@@ -51,8 +51,9 @@ button {
     margin-left: 20px;
     height: 50px;
     cursor: pointer;
-    background-color: rgb(188, 188, 155);
-    font-size: 1.5rem;
+    background-color: rgb(255, 255, 207);
+    font-size: 1.3rem;
+    margin-top: auto;
   }
 
   .todoFormContainer button:hover {
