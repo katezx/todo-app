@@ -1,36 +1,4 @@
-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-input {
-  width: 45%;
-  height: 30px;
-  font-size: 1.3rem;
-}
-
-button {
-margin-left: 20px;
-height: 50px;
-cursor: pointer;
-background-color: rgb(242, 242, 145);
-font-size: 1.5rem;
-}
-
-button:hover {
-  background-color: rgb(233, 156, 227);
-}
-
-input,
-button {
-  padding: 10px 15px;
-  border:none;
-  border-radius: 5px;
-}
-
-.todoFormContainer {
+ .todoFormContainer {
     margin-bottom: 30px;
 }
 
@@ -45,25 +13,9 @@ button {
     width: 45%;
     height: 30px;
     font-size: 1.3rem;
-  }
-  
-  .todoFormContainer button {
-    margin-left: 20px;
-    height: 50px;
-    cursor: pointer;
-    background-color: rgb(255, 255, 207);
-    font-size: 1.3rem;
-    margin-top: auto;
-  }
-
-  .todoFormContainer button:hover {
-background-color: rgb(135, 205, 56) ;
-}
-
-.todoFormContainer input,
-.todoFormContainer button {
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
-}
+  }
+  
   

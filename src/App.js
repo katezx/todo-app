@@ -54,6 +54,7 @@ const completedTodosCount = todos.filter((todo)=> todo.isCompleted).length
       deleteCompletedTodos={deleteCompletedTodosHandler} 
       />}
       <TodoList todos ={todos} deleteTodo={deleteTodoHandler} toggleTodo={toggleTodoHandler}/>
+      {completedTodosCount > 0 && <h2>{`You have completed ${completedTodosCount} ${completedTodosCount >1 ? 'todos' : 'todo'} `}</h2>}
     </div>
   )
 }
